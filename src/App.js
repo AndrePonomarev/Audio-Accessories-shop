@@ -28,6 +28,27 @@ class App extends React.Component {
           img: 'Apple EarPods2.png',
           price: '2327 Р',
           mark: '4.5'
+        },
+        {
+          id: 1,
+          title: 'Apple Byz S8521',
+          img: 'Apple Byz S8521.png',
+          price: '2927 Р',
+          mark: '4.7'
+        },
+        {
+          id: 2,
+          title: 'Apple EarPods',
+          img: 'Apple EarPods.png',
+          price: '2327 Р',
+          mark: '4.5'
+        },
+        {
+          id: 3,
+          title: 'Apple EarPods2',
+          img: 'Apple EarPods2.png',
+          price: '2327 Р',
+          mark: '4.5'
         }
       
       ]
@@ -39,7 +60,7 @@ class App extends React.Component {
       <div className="wrapper">
         
         <Header />
-        <p>Наушники</p>
+        <p class="headphones">Наушники</p>
         <Items items={this.state.items} />
         <Footer />
 

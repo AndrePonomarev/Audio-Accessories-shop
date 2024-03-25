@@ -17,6 +17,16 @@ body {
   height: 407px;
   top: 132px;
   left: 182px;
+  margin: 0px 15px 35px 15px;
+}
+
+.logo {
+  margin: 15px;
+}
+
+.headphones {
+  margin: 25px 5px 5px 25px;
+  color: grey;
 }
 
 main .item img {
