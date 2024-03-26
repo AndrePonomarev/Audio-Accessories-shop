@@ -21,20 +21,22 @@ body {
 }
 
 .logo {
-  margin: 15px;
+  margin: 75px;
 }
 
 .headphones {
-  margin: 25px 5px 5px 25px;
+  margin: 25px 5px 5px 75px;
   color: grey;
+  font-size: 20px;
 }
 
-main .item img {
+.itemimg {
   width: 219px;
   height: 237px;
   top: 147px;
   left: 247px;
   transition: transform 500ms ease;
+  margin: 20px 60px;
 }
 
 main .item img:hover {
@@ -46,12 +48,8 @@ main h2 {
   font-size: 17px;
 }
 
-main img {
-  margin: 20px 60px;
-}
-
 .add-to-cart {
-  margin: 10px 20px;
+  /* margin: 10px 20px; */
 }
 
 .wrapper {
@@ -85,10 +83,23 @@ main {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 5px;
+  margin: 0px 55px;
 }
 
 footer {
   text-align: center;
 }
+
+.titprice {
+  margin: 5px;
+  display: flex;
+  justify-content:space-between ;
+}
+
+.markbuy {
+  /* margin: 5px; */
+  display: flex;
+  justify-content: space-between;
+}
+
 

@@ -51,6 +51,29 @@ class App extends React.Component {
           mark: '4.5'
         }
       
+      ],
+      wireless: [
+        {
+          id: 4,
+          title: 'Apple AirPods',
+          img: 'Apple AirPods.png',
+          price: '9527 Р',
+          mark: '4.7'
+        },
+        {
+          id: 5,
+          title: 'GERLAX GH-04',
+          img: 'GERLAX GH-04.png',
+          price: '6527 Р',
+          mark: '4.7'
+        },
+        {
+          id: 6,
+          title: 'Apple AirPods',
+          img: 'Apple AirPods2.png',
+          price: '9527 Р',
+          mark: '4.7'
+        },
       ]
     }
   }
@@ -62,6 +85,8 @@ class App extends React.Component {
         <Header />
         <p class="headphones">Наушники</p>
         <Items items={this.state.items} />
+        <p class="headphones">Беспроводные Наушники</p>
+        <Items items={this.state.wireless} />
         <Footer />
 
       </div>
