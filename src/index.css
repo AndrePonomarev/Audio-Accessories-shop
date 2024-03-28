@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-  margin: 0;
-  padding: 0;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -10,6 +8,7 @@ body {
 
 }
 
+
 .item {
   background-color: white;
   border-radius: 15px;
@@ -17,11 +16,15 @@ body {
   height: 407px;
   top: 132px;
   left: 182px;
-  margin: 0px 15px 35px 15px;
+  margin: 10px 5px;
 }
 
 .logo {
   margin: 75px;
+}
+.header {
+width: 1135px;
+height: 60px;
 }
 
 .headphones {
@@ -53,8 +56,10 @@ main h2 {
 }
 
 .wrapper {
-  width: 1280px;
+  width: 1100px;
+  height: 888.65px;
   margin: 50px;
+  margin: 50px auto;
 }
 
 header ul.nav {
@@ -86,10 +91,6 @@ main {
   margin: 0px 55px;
 }
 
-footer {
-  text-align: center;
-}
-
 .titprice {
   margin: 5px;
   display: flex;
@@ -102,4 +103,25 @@ footer {
   justify-content: space-between;
 }
 
+.footer {
+  background-color: white;
+  width: 1110px;
+  height: 149px;
+  border-radius: 30px 30px 0px 0px;
+  text-align: center;
+  margin: 50px;
+}
+
+.footmenu {
+width: 427px;
+height: 82.8px;
+
+display: flex;
+  justify-content: center; /* Выравнивание по горизонтали */
+  align-items: center; /* Выравнивание по вертикали */
+}
+
+.service {
+  list-style: none;
+}
 

@@ -71,7 +71,7 @@ class App extends React.Component {
           id: 6,
           title: 'Apple AirPods',
           img: 'Apple AirPods2.png',
-          price: '9527 Р',
+          price: '7527 Р',
           mark: '4.7'
         },
       ]
