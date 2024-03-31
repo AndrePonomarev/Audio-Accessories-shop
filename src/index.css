@@ -21,7 +21,16 @@ body {
 
 .logo {
   margin: 75px;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .header {
 width: 1135px;
 height: 60px;
@@ -76,11 +85,6 @@ header ul.nav li {
 
 header ul.nav li:hover {
  opacity: 0.5;
-}
-
-header .logo {
-  font-weight: 600;
-  font-size: 20px;
 }
 
 main {
